@@ -1,0 +1,14 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "OTUS-выпуской проект",
+  "main": "index.js",
+  "scripts": {
+    "client:install": "cd client && npm install",
+    "client:start": "",
+    "server:install": "cd server && npm install",
+    "server:start": "cd server && npm run dev"
+  },
+  "author": "",
+  "license": "ISC"
+}

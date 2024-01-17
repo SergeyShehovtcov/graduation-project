@@ -1,0 +1,32 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "client: install": {
+      "name": "client: install",
+      "command": "cd client && npm install"
+    },
+    "client: start": {
+      "name": "client: start",
+      "command": "cd client && npm start"
+    },
+    "server: install": {
+      "name": "server: install",
+      "command": "cd server && npm install"
+    },
+    "server: start": {
+      "name": "server: start",
+      "command": "cd server && npm start",
+      "preview": {
+        "port": 5000
+      }
+    }
+  }
+}
